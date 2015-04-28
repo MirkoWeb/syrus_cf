@@ -1,0 +1,30 @@
+{
+    "main":"public/javascripts/syrusjs",
+    "name":"syrus",
+    "category":"policy management",
+    "description": "",
+    "version": "1.0.6",
+	"contributors":[
+	{
+		"name":"Mirko Prota",
+		"email":"mirkos93@gmail.com"
+	}
+	],
+    "account": {
+        "callback_url": "http://cloudflare.com",
+        "user_fields": ["email"]
+    },
+    "config":{
+        "details":{
+			"Language": "Italian",
+            "Price": "Free",
+            "Restrictions": "None",
+            "has_js":true
+        },
+        "assets":{
+            "logos" : {
+                "132px": "./public/images/logo-132.png"
+            }
+        }
+    }
+}
