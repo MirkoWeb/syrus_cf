@@ -4,11 +4,10 @@ CloudFlare.define("syrus",
     {		
 		function addRemarketing(){
 			var protocol = window.location.protocol != "https:" ? "http:" : "https:";
-			var embeddedCode = "<script type=\"text/javascript\">(function (w,d) {var loader = function () {var s = d.createElement(\"script\"), tag = d.getElementsByTagName(\"script\")[0]; s.src = \""+protocol+"//syrusindustry.com/g_remarketing.js\"; tag.parentNode.insertBefore(s,tag);}; loader();})(window, document);</script>";
-			$("body").append(embeddedCode);
+			$("body").append(remarketing_code);
 		}
 		function lookForBadge(){
-			addRemarketing();
+			addRemarketing(_config.remarketing_code);
 		}
 		lookForBadge();
     }

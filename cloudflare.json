@@ -25,6 +25,14 @@
             "logos" : {
                 "132px": "./public/images/logo-132.png"
             }
-        }
+        },
+        "interface": [
+            {
+                "type": "string",
+                "id": "remarketing_code",
+                "name": "Remarketing Code",
+                "description": "Please fill with your google remarketing js code.",
+            }
+        ]
     }
 }
