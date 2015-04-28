@@ -27,11 +27,17 @@
             }
         },
         "interface": [
+			{
+                "type": "string",
+                "id": "conversion_id",
+                "name": "Conversion ID",
+                "description": "Please fill with your google remarketing conversion ID (you can find it in your google remarketing JS code)",
+            },
             {
                 "type": "string",
-                "id": "remarketing_code",
-                "name": "Remarketing Code",
-                "description": "Please fill with your google remarketing js code.",
+                "id": "conversion_label",
+                "name": "Conversion label",
+                "description": "Please fill with your google remarketing conversion label (you can find it in your google remarketing JS code)",
             }
         ]
     }
